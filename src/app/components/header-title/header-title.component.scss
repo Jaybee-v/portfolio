@@ -1,0 +1,50 @@
+#title {
+  padding: 23px;
+
+  display: grid;
+  grid-template-columns: 10% 50% 30% 10%;
+  font-family: "Noto Sans", sans-serif;
+  position: relative;
+  background-color: #ffce6ba7;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 89%);
+  .container-title {
+    grid-column-start: 2;
+    position: relative;
+    padding: 20px;
+    text-transform: uppercase;
+    top: 150px;
+    height: fit-content;
+    left: 200px;
+    h2 {
+      line-height: 1.6em;
+      word-spacing: 0.8em;
+      font-weight: 900;
+      color: #42a8b9;
+      text-shadow: 4px 2px 4px gray;
+      font-size: 3.5em;
+    }
+    h2.name {
+      text-shadow: 0 0 2px #42a8b9;
+      color: #ffce6b;
+      text-transform: none;
+      font-size: 2.5em;
+    }
+    p {
+      font-size: 1em;
+      text-transform: none;
+      font-weight: 400;
+      color: #414141;
+      word-spacing: 0.3em;
+    }
+  }
+  .container-image {
+    grid-column-start: 3;
+    position: relative;
+
+    img {
+      border-radius: 19% 111% 99% 33%/32% 47% 53% 55%;
+      padding: 10px 0 10px 0;
+      border: 5px solid #42a8b9;
+    }
+  }
+}

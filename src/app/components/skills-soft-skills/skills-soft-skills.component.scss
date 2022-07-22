@@ -1,0 +1,50 @@
+#services {
+  clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 89%);
+  position: relative;
+  background-color: #ffce6ba7;
+  padding: 50px;
+  font-family: "Dongle";
+  font-size: 1.5em;
+  line-height: 1.8em;
+  word-spacing: 1em;
+  margin-bottom: 20px;
+  h2 {
+    text-shadow: 2px 2px 4px #37788f;
+    color: #42a8b9;
+    font-family: "Noto Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .competences {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    .all-competences {
+      padding: 20px;
+      font-weight: 700;
+      color: #ffce6b;
+      font-size: 1.6em;
+      border-radius: 1.5rem;
+      background-color: #37788fcf;
+      margin-right: 1.5rem;
+    }
+  }
+  .soft-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    .all-soft-skills {
+      padding: 20px;
+      font-weight: 700;
+      color: #ffce6b;
+      font-size: 1.6em;
+      border-radius: 1.5rem;
+      background-color: #37788fcf;
+      margin-right: 1.5rem;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+#realisations {
+  clip-path: polygon(0 0, 100% 11%, 100% 100%, 0 100%);
+  font-family: "Dongle";
+  position: relative;
+  background-color: #42a8b9;
+  width: 100vw;
+  h2 {
+    padding: 50px;
+    text-shadow: 2px 2px 4px #37788f;
+    color: #ffce6b;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 2.5em;
+    line-height: 1.8em;
+    word-spacing: 1em;
+  }
+  .container.container-realisations {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 30% 30%;
+    width: auto;
+    p {
+      font-size: 1.5em;
+    }
+    .site-vitrine {
+      grid-column-start: 1;
+    }
+    .site-formation {
+      grid-column-start: 2;
+    }
+    .hotels {
+      grid-column-start: 1;
+      margin-bottom: 40px;
+      img {
+        width: 500px;
+      }
+    }
+  }
+  video {
+    border: 10px solid #ffce6b;
+    width: 500px;
+  }
+}

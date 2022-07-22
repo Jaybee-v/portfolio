@@ -1,0 +1,41 @@
+<section id="realisations">
+  <h2>Mes premières réalisations</h2>
+  <div class="container container-realisations">
+    <div class="site-vitrine">
+      <video
+        loop
+        controls
+        (mouseover)="mouseover(true)"
+        (mouseout)="mouseout(false)"
+        #video
+      >
+        <source src="../assets/video/Séquence 03.mp4" />
+      </video>
+      <p>Site vitrine réalisé en HTML/CSS et Vanilla JS</p>
+    </div>
+
+    <div class="site-formation">
+      <video
+        loop
+        controls
+        (mouseover)="mouseover2(true)"
+        (mouseout)="mouseout2(false)"
+        #video2
+      >
+        <source src="../assets//video/Séquence 01.mp4" />
+      </video>
+      <p>Site réalisé avec Angular</p>
+    </div>
+    <div class="hotels">
+      <a
+        href="https://save-your-hotel-training.web.app"
+        onclick="window.open(this.href); return false;"
+        ><img src="../assets/img/Save Your Hotel.png"
+      /></a>
+      <p>
+        Site d'entrainement réalisé avec Angular (uniquement en version desktop
+        1920px pour l'instant)
+      </p>
+    </div>
+  </div>
+</section>

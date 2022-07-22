@@ -1,0 +1,45 @@
+#presentation {
+  clip-path: polygon(0 0, 100% 11%, 100% 89%, 0 100%);
+  padding: 50px;
+  padding: 20px;
+  position: relative;
+  background-color: #42a8b9;
+  font-size: 1.8em;
+  word-spacing: 0.5em;
+  line-height: 1.5em;
+  z-index: 1;
+  h2 {
+    text-shadow: 2px 2px 4px #37788f;
+    color: #ffce6b;
+    margin-top: 20px;
+    font-family: "Noto Sans", sans-serif;
+  }
+  h3 {
+    font-family: "Dongle";
+    font-size: 1.5em;
+    padding: 20px;
+    margin-left: 100px;
+    &::after {
+      content: " ";
+      width: 60px;
+      height: 9px;
+      position: absolute;
+      left: 130px;
+      top: 140px;
+      background-color: #37788f;
+      border-radius: 10px;
+    }
+  }
+  p {
+    font-family: "Dongle";
+    color: #414141;
+    display: block;
+    margin-left: 5%;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 50px;
+    strong {
+      color: #ccc;
+    }
+  }
+}

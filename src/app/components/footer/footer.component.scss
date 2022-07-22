@@ -1,0 +1,26 @@
+#contact {
+  position: relative;
+  top: 70px;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container {
+    font-family: "Dongle";
+    h3 {
+      font-family: "Noto Sans", sans-serif;
+      color: #37788f;
+      padding: 20px;
+    }
+    i {
+      padding: 0 20px;
+    }
+    span {
+      margin-right: 10px;
+    }
+    a {
+      text-decoration: none;
+      color: #414141;
+    }
+  }
+}
