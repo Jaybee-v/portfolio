@@ -1,12 +1,12 @@
 #title {
   padding: 23px;
-
   display: grid;
   grid-template-columns: 10% 50% 30% 10%;
   font-family: "Noto Sans", sans-serif;
   position: relative;
   background-color: #ffce6ba7;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 89%);
+
   .container-title {
     grid-column-start: 2;
     position: relative;
@@ -24,7 +24,7 @@
       font-size: 3.5em;
     }
     h2.name {
-      text-shadow: 0 0 2px #42a8b9;
+      text-shadow: 1px 1px 1px #42a8b9;
       color: #ffce6b;
       text-transform: none;
       font-size: 2.5em;

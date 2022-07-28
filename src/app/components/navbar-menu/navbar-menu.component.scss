@@ -17,13 +17,21 @@ header {
         display: flex;
         margin-right: 200px;
         li {
-          padding: 50px;
+          transition: 0.8s ease-in-out;
+          &:hover {
+            transform: translate3d(0px, -10%, 0px) rotate(20deg);
+            background-color: #42a8b9;
+            border-radius: 15px;
+          }
+
           a {
+            padding: 30px 40px;
             letter-spacing: 1px;
             font-size: 2em;
             color: #42a8b9;
-            font-weight: 600;
-            &.active {
+            font-weight: 200;
+            transition: 0.5s ease-in-out;
+            &:hover {
               color: #ffce6b;
               font-weight: 900;
             }
