@@ -48,3 +48,39 @@
     }
   }
 }
+
+@media screen and (max-width: 375px) {
+  #services {
+    padding: 50px 0;
+    font-size: 1em;
+    .competences {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      .all-competences {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+        padding: 5px 5px;
+        font-weight: 200;
+        font-size: 1em;
+        border-radius: 10px;
+        margin-right: 10px;
+      }
+    }
+    .soft-skills {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      padding: 20px;
+      .all-soft-skills {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+        padding: 5px 5px;
+        font-weight: 200;
+        font-size: 1em;
+        border-radius: 10px;
+        margin-right: 10px;
+      }
+    }
+  }
+}

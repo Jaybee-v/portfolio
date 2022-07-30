@@ -9,14 +9,25 @@
     transform: rotate(45deg);
     padding: 30px;
     font-size: 2em;
-    // text-shadow: 10px 10px 17px #ffce6b, -10px -10px 20px #ffce6b,
-    //   0px 0px 25px #ffce6b;
   }
   .fa-arrow-down {
     padding: 20px !important;
     margin-left: 25px;
     transform: rotate(2deg);
     font-size: 1em;
-    // text-shadow: 4px 4px 5px #ffce6b, -4px -4px 5px #ffce6b, 0px 0px 5px #ffce6b;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container-animations {
+    transform: rotate(-15deg);
+    i {
+      transform: rotate(10deg);
+      font-size: 1.5em;
+    }
+    .fa-arrow-down {
+      transform: rotate(2deg);
+      font-size: 0.8em;
+    }
   }
 }

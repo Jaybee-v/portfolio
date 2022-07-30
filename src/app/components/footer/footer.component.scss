@@ -24,3 +24,10 @@
     }
   }
 }
+
+@media screen and (max-width: 375px) {
+  #contact {
+    position: relative;
+    top: 0px;
+  }
+}

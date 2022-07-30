@@ -43,3 +43,20 @@
     }
   }
 }
+
+@media screen and (max-width: 375px) {
+  #presentation {
+    clip-path: polygon(0 0, 100% 2%, 100% 95%, 0 100%);
+    font-size: 1.4em;
+    z-index: 1;
+    h3 {
+      &::after {
+        display: none;
+      }
+    }
+    .second-part {
+      padding-bottom: 20px;
+      width: 90%;
+    }
+  }
+}

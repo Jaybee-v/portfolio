@@ -62,56 +62,43 @@ header {
   }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 375px) {
   header {
+    width: 100vw;
     nav {
+      position: relative;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-sizing: border-box;
       #logo-title {
         img {
+          width: 80px;
         }
       }
       #nav-menu {
-        padding: 0;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        background-color: rgba(191, 191, 191, 0.266);
-        backdrop-filter: blur(8px);
-        display: flex;
-        justify-content: center;
-        align-items: center;
         ul {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
           li {
             a {
-              &.active {
-              }
+              padding: 30px 10px;
+              font-size: 0.9em;
+              color: #42a8b9;
+              font-weight: 400;
             }
           }
         }
       }
       div#social {
         ul {
+          display: flex;
           li {
             a {
               i {
+                font-size: 1.2em;
               }
             }
           }
-        }
-      }
-      .menu-hamburger {
-        position: absolute;
-        top: 50px;
-        right: 100px;
-        padding: 30px;
-        background-color: #42a8b9;
-        display: block;
-        img {
-          width: 30px;
         }
       }
     }

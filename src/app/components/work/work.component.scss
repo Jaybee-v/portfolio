@@ -31,6 +31,7 @@
       grid-column-start: 1;
       margin-bottom: 40px;
       img {
+        border: 10px solid #ffce6b;
         width: 500px;
       }
     }
@@ -38,5 +39,41 @@
   video {
     border: 10px solid #ffce6b;
     width: 500px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #realisations {
+    clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 100%);
+    h2 {
+      font-size: 1.5em;
+    }
+    .container.container-realisations {
+      display: grid;
+      margin-left: 50%;
+      transform: translate(-50%);
+      grid-template-columns: repeat(1, 1fr);
+      p {
+        font-size: 1.2em;
+      }
+      .site-vitrine {
+        grid-column-start: 1;
+      }
+      .site-formation {
+        grid-column-start: 1;
+      }
+      .hotels {
+        grid-column-start: 1;
+        margin-bottom: 40px;
+        img {
+          border: 10px solid #ffce6b;
+          width: 300px;
+        }
+      }
+    }
+    video {
+      border: 10px solid #ffce6b;
+      width: 300px;
+    }
   }
 }
